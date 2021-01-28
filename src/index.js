@@ -19,7 +19,7 @@ router.get("/ready", (req, res) => {
 });
 
 var time = new Date().toLocaleTimeString();
-router.get("/time", (req, res) => {
+router.get("/timenow", (req, res) => {
   res.json({ time: `${time}` });
 });
 
